@@ -1,0 +1,63 @@
+{
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "extends":"eslint:recommended",
+    "rules": {
+        "semi": ["error","always"],
+        "capitalized-comments": [
+          "error",
+          "always",
+          {
+            "ignoreInlineComments": true
+          }
+        ],
+        "eol-last": [
+          "error",
+          "never"
+        ],
+        "no-debugger": "warn",
+        "no-unused-vars": "off",
+        "no-undef": "off",
+        "no-console": "error",
+        "no-irregular-whitespace": "error",
+        "no-multi-spaces": "error",
+        "array-bracket-spacing": [
+          "error",
+          "never"
+        ],
+        "block-spacing": [
+          "error",
+          "always"
+        ],
+        "brace-style": [
+          "error",
+          "1tbs"
+        ],
+        "comma-spacing": [
+          "error",
+          {"after":true}
+        ],
+        "comma-style": [
+          "error",
+          "last"
+        ],
+        "func-call-spacing": [
+          "error",
+          "never"
+        ],
+        "func-style": [
+          "error",
+          "expression"
+        ],
+        "indent": [
+          "error",
+          "tab"
+        ],
+        "quotes": [
+          "error",
+          "single"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+
+doctype
+html
+  head
+    title Test
+    include css
+    include scripts
+  body(ng-app='websiteApp', ng-controller='MainCtrl')
+  div.container
+    //block main
+    block main
+    div(ng-view)
+    //block main
+    //block experience
+    //block skills
+    //block projects (eventually)
+    //block contact
+    block footer
+      #footer
+        p Footer content

@@ -1,1 +1,35 @@
-# website
+# Structure
+
+- WebsiteProject/ (root)
+----
+---- .bowerrc (Bower Path Configuration)
+---- .eslintrc.json (Eslint Configuration)
+---- bower.json (Bower Configuration)
+---- gulpfile.js (Gulp Configuration)
+---- package.json (NPM Configuration)
+---- server.js (Entry Point/Server)
+---- node_modules/ (NPM Installed Modules)
+---- aux.js (Basic function aliases)
+----
+---- config/ (Directory for Config Files)
+-------- db.js (MongoDB Configuration)
+----
+---- app/
+-------- models/
+------------Education.js
+-------- routes.js
+----
+---- public/
+-------- css/
+------------ styles.styl (Custom CSS)
+--------
+-------- js/ (All Front-End Javascript Files)
+------------ controllers/
+---------------- EduCtrl.js
+---------------- MainCtrl.js
+------------ services/
+---------------- EducationService.js
+------------ app.js
+------------ appRoute.js
+-------- libs/ (Front-End packages managed by Bower)
+-------- views/ (Contains Pug templates and compiled views)

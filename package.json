@@ -1,32 +1,33 @@
 {
-  "name": "Website-Project",
-  "version": "1.0.0",
-  "description": "Personal website",
+  "name": "starter-node-angular",
   "main": "server.js",
-  "repository": "https://github.com/ohanlonl/Website-Project.git",
-  "author": "ohanlonl@outlook.com",
-  "license": "MIT",
+  "scripts": {
+    "lint": "gulp lint",
+    "compilePug": "pug ./public/views --pretty",
+    "compileCSS": "stylus ./public/css/styles.styl",
+    "test": "npm run compilePug && npm run compileCSS && gulp test",
+    "start": "npm run compilePug && npm run compileCSS && npm run lint && nodemon server.js"
+  },
   "dependencies": {
-    "bcryptjs": "^2.4.3",
+    "animate.css": "^4.1.0",
     "body-parser": "^1.19.0",
-    "concurrently": "^5.2.0",
-    "create-react-app": "^3.4.1",
+    "eslint": "^7.4.0",
+    "eslint-plugin-angular": "^4.0.1",
     "express": "^4.17.1",
-    "is-empty": "^1.2.0",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.21",
-    "passport": "^0.4.1",
-    "passport-jwt": "^4.0.0",
-    "validator": "^13.1.1"
+    "grunt": "^1.2.1",
+    "method-override": "~2.0.2",
+    "mongoose": "^5.9.22",
+    "pug": "^3.0.0",
+    "stylus": "^0.54.7"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0"
   },
-  "scripts": {
-    "client-install": "npm install --prefix client",
-    "start": "node server.js",
-    "server": "nodemon server.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
-  }
+  "eslintIgnore": [
+    "public/libs",
+    "node_modules",
+    "auxillary.js",
+    "gulpfile.js"
+  ]
 }
