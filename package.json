@@ -15,7 +15,7 @@
     "eslint-plugin-angular": "^4.0.1",
     "express": "^4.17.1",
     "grunt": "^1.2.1",
-    "method-override": "~2.0.2",
+    "method-override": "~2.3.10",
     "mongoose": "^5.9.22",
     "pug": "^3.0.0",
     "stylus": "^0.54.7"
