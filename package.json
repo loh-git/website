@@ -1,33 +1,22 @@
 {
-  "name": "starter-node-angular",
-  "main": "server.js",
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "Full-Stack Vue & Express App",
+  "main": "index.js",
   "scripts": {
-    "lint": "gulp lint",
-    "compilePug": "pug ./public/views --pretty",
-    "compileCSS": "stylus ./public/css/styles.styl",
-    "test": "npm run compilePug && npm run compileCSS && gulp test",
-    "start": "npm run compilePug && npm run compileCSS && npm run lint && nodemon server.js"
+    "start": "node server/index.js",
+    "dev": "concurrently \"nodemon server/index.js\" \"vue serve client/src/App.vue\""
+
   },
+  "author": "",
+  "license": "MIT",
   "dependencies": {
-    "animate.css": "^4.1.0",
     "body-parser": "^1.19.0",
-    "eslint": "^7.4.0",
-    "eslint-plugin-angular": "^4.0.1",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "grunt": "^1.2.1",
-    "method-override": "~2.0.2",
-    "mongoose": "^5.9.22",
-    "pug": "^3.0.0",
-    "stylus": "^0.54.7"
+    "mongodb": "^3.5.9"
   },
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-eslint": "^6.0.0"
-  },
-  "eslintIgnore": [
-    "public/libs",
-    "node_modules",
-    "auxillary.js",
-    "gulpfile.js"
-  ]
+    "nodemon": "^2.0.4"
+  }
 }

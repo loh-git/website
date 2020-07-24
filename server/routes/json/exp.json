@@ -1,0 +1,45 @@
+[
+
+	{
+		"expCompany": "Mozaic Services Ltd. Department of Business, Energy and Industrial Strategy",
+		"expPosition": "Graduate Developer / System Administrator",
+		"expLocation": "London, UK",
+		"expDates": "May 2019 - July 2020",
+		"expBulletPoints": [
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		],
+		"expReferences": [
+			{"bold":"Mozaic Services Ltd. Reference: ", "text":"Aileen Coull, aileen.coull@mozaic.net"},
+			{"bold":"Department of Business, Energy and Industrial Strategy Reference: ", "text":"David Symes, david.symes@beis.gov.uk"}
+			]
+	},
+
+	{
+		"expCompany": "Lancaster Environment Centre, Lancaster University",
+		"expPosition": "Software Developer",
+		"expLocation": "Lancashire, UK",
+		"expDates": "June 2018 - July 2018",
+		"expBulletPoints": [
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		],
+		"expReferences": [
+			{"bold":"Reference: ", "text":"Suzana Ilic, s.ilic@lancaster.ac.uk"}
+			]
+	}
+
+
+]
