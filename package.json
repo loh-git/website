@@ -1,13 +1,13 @@
 {
   "name": "mern",
   "version": "1.0.0",
-  "description": "Full-Stack Vue & Express App",
+  "description": "Portfolio Website powered by Vue, Express, Node and Buefy.",
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
     "dev": "concurrently \"nodemon server/index.js\" \"vue serve client/src/App.vue\""
   },
-  "author": "Liam O'hanlon",
+  "author": "Liam O'Hanlon",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
