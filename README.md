@@ -14,6 +14,12 @@ This can be seen in the `DIRSTR` file but not here because of markdown syntax.
 + Babel
 + ESLint
 
+# What I've Learned
++ JQuery
++ Vue
++ Vue
++ Keyframes & Animation
+
 # Live Deployment
 Current deployment can be [viewed here.](https://liam-ohanlon.herokuapp.com)
 
