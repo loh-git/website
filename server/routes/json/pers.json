@@ -4,5 +4,8 @@
 	"phone":"07599483151",
 	"email":"ohanlonl@outlook.com",
 	"linkedin":"https://linkedin.com/in/loh",
-	"introduction":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac tellus consectetur, efficitur neque ut, eleifend sapien. Integer sit amet iaculis lorem. Fusce ac nisl blandit, dictum est et, iaculis nisl. Vestibulum non semper augue. Curabitur pulvinar ornare tellus quis feugiat. In eget orci eu dui rutrum gravida a sit amet nisl. Cras sollicitudin nisl tortor, tempus rhoncus nunc congue sed."
+	"introduction":	[
+		"Born in Hong Kong and raised in Dubai, I obtained my Computer Science BSc at Lancaster University before realising I missed the hustle and bustle of the big city and moved to London where I was employed as a Graduate Developer and Consultant with Mozaic.",
+		"Assigned to act as System Administrator for the Department of Business, Energy and Industrial Strategy; I achieved two certifications, acquired BPSS & DBS security clearance, built on my technical knowledge in a hands-on Agile environment and honed my soft skills through meetings with stakeholders."
+	]
 }]
