@@ -3,7 +3,6 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const app = express();
 const education = require('./routes/api/edu');
-const certifications = require('./routes/api/certs');
 const experience = require('./routes/api/exp');
 const personal = require('./routes/api/pers');
 const skills = require('./routes/api/skills');
@@ -14,7 +13,6 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Routing Configuration for Server
-app.use('/api/certs',certifications);
 app.use('/api/edu',education);
 app.use('/api/exp',experience);
 app.use('/api/pers',personal);
