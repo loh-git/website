@@ -1,47 +1,20 @@
 [
 	{
 		"eduSchool": "Lancaster University",
+
 		"eduCourse": "Computer Science BSc (Hons)",
-		"eduDates": "October 2015 - October 2018",
+		"eduDates": "10/2015 - 10/2018",
 		"eduGrade": "2:2",
-		"eduUrl":"https://lancaster.ac.uk",
-		"eduBulletPoints": [
-			"Awarded the Lancaster Award for participation in extra-curricular activities and volunteer work through which I was able to improve my interpersonal skills, especially with regards to clear communication, and becoming more open and personable through proactive self-development.",
-			"Founding member of the Lancaster University Ethical Hacking Society. Further positions of responsibility included my position as Officer where I assisted in teaching members how to perform data forensics, and penetration testing among other topics through practical sessions.",
-			"Competed as a member of Lancaster University Ethical Hacking Society in the Inter-ACE CTF 2017 hosted by the University of Cambridge and sponsored by GCHQ"
-		],
-		"eduKeyModules": [
-			"Human-Computer Interaction",
-			"Languages & Compilation",
-			"Security & Risk",
-			"Internet Applications Engineering"
-		]
+		"eduUrl":"https://lancaster.ac.uk"
+
 	},
 
 	{
 		"eduSchool": "King George V School",
-		"eduCourse": "BTEC Level 3 Extended Diploma in Business and IT",
-		"eduDates": "September 2013 - September 2015",
-		"eduGrade": "D*DD",
-		"eduUrl":"https://www.kgv.edu.hk/",
-		"eduBulletPoints": [
-			"Completed my BTEC diploma achieving two distinctions and one distinction star, equivalent to 152 post-2016 UCAS tariff points"
-		],
-		"eduKeyModules": [
-			"Economics",
-			"Accounting",
-			"Business Environments",
-			"Law & Compliance",
-			"Corporate Social Responsibility"
-		]
-	},
-	{
-		"eduSchool": "King George V School",
-		"eduCourse": "GCSE English and Mathematics",
-		"eduDates": "September 2013 - September 2014",
-		"eduGrade": "Both B",
-		"eduUrl":"https://www.kgv.edu.hk/",
-		"eduBulletPoints": [],
-		"eduKeyModules": []
+		"eduDates": "09/2013 - 09/2015",
+		"eduCourse": ["BTEC Level 3 Extended Diploma in Business and IT","GCSE English and Mathematics"],
+		"eduGrade": ["D*DD","Both B"],
+		"eduUrl":"https://www.kgv.edu.hk/"
+
 	}
 ]
